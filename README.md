@@ -21,5 +21,11 @@ Cuaderno práctico paso a paso con 4 ejercicios 100 % ejecutables en Google Cola
 - Comparativa real: Pandas plotting vs Seaborn vs Matplotlib
 - Gráficos de barras claros y listos para presentar
 
-Abrir en Colab →  
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Z-7rJwjfZ9NGsjlU4nktm8iuz-Ag4FT5?usp=sharing)
+Abrir en acá →  
+[![Abrir Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Z-7rJwjfZ9NGsjlU4nktm8iuz-Ag4FT5?usp=sharing)
+
+### Tecnologías usadas
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
+![Seaborn](https://img.shields.io/badge/seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white)
