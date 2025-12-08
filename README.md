@@ -1,6 +1,6 @@
 # Análisis de Sentimientos y Manipulación de Datos en Python
 
-Cuaderno práctico paso a paso con 4 ejercicios 100 % ejecutables en Google Colab.
+Cuaderno práctico paso a paso con 4 ejercicios ejecutables en Google Colab, para cada ejercicio se uso un dataset diferente.
 
 ### Práctica 1 – Análisis de Sentimientos en Español
 - Modelo Naive Bayes + TF-IDF preentrenado (`sentiment-analysis-spanish`)
@@ -21,7 +21,7 @@ Cuaderno práctico paso a paso con 4 ejercicios 100 % ejecutables en Google Cola
 - Comparativa real: Pandas plotting vs Seaborn vs Matplotlib
 - Gráficos de barras claros y listos para presentar
 
-Abrir en acá →  
+A continuación encontrarás el colab con las prácticas realizadas →  
 [![Abrir Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Z-7rJwjfZ9NGsjlU4nktm8iuz-Ag4FT5?usp=sharing)
 
 ### Tecnologías usadas
