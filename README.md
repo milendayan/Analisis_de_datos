@@ -22,7 +22,7 @@ Cuaderno práctico paso a paso con 4 ejercicios ejecutables en Google Colab, par
 - Gráficos de barras claros y listos para presentar
 
 A continuación encontrarás el colab con las prácticas realizadas →  
-[![Abre el Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Z-7rJwjfZ9NGsjlU4nktm8iuz-Ag4FT5?usp=sharing)
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Z-7rJwjfZ9NGsjlU4nktm8iuz-Ag4FT5?usp=sharing)
 
 ### Tecnologías usadas
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
