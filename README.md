@@ -28,7 +28,7 @@ Se evaluaron tres frases representativas utilizando el modelo de análisis de se
 
 - **Fortalezas:** Excelente detección de polaridades extremas y claras en textos cortos.  
 
-- **Limitaciones: **  
+- **Limitaciones:**  
 - Dificultad con neutralidad real.  
 - Posible fallo en sarcasmo, ambigüedad o negaciones complejas.
 
