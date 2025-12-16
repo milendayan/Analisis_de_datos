@@ -19,21 +19,18 @@ Se evaluaron tres frases representativas utilizando el modelo de análisis de se
 | "Que horrible comida!!!"        | Negativa      | 0.001            | Muy negativa (cercana a 0)    |
 | "Tuve una experiencia neutral"  | Neutral       | 0.207            | Tendencia negativa ( debería ser más cercana a 0.5)             |
 
-## Interpretación de los Resultados
+### Interpretación de los Resultados
 
 - Detecta correctamente polaridades positiva y negativa extremas con alta confianza.  
 - La frase neutral se clasifica como negativa, revelando una limitación típica de modelos clásicos: tendencia binaria y dificultad con textos neutros o ambiguos.
 
-### Análisis Detallado
+#### Análisis Detallado
 
-**Aciertos claros:**  
-- Excelente en lenguaje emocional directo y explícito.  
-- Ideal para reseñas cortas, tweets o comentarios simples.  
+- **Fortalezas:** Excelente detección de polaridades extremas y claras en textos cortos.  
 
-**Limitaciones observadas:**  
+- **Limitaciones: **  
 - Dificultad con neutralidad real.  
-- Posible fallo en sarcasmo, negaciones complejas o contexto (ej. "No está mal").  
-- Dependencia del dataset de entrenamiento original (probablemente reseñas de productos/películas).
+- Posible fallo en sarcasmo, ambigüedad o negaciones complejas.
 
 ### Conclusiones
 
