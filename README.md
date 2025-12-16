@@ -2,14 +2,14 @@
 
 Cuaderno práctico ejecutable en Google Colab con 4 ejercicios independientes (¡cada uno usa su propio dataset!).
 
-### Práctica 1 – Análisis de Sentimientos en Español
+## Práctica 1 – Análisis de Sentimientos en Español
 **Modelo preentrenado basado en Naive Bayes y TF-IDF**  
 Biblioteca: `sentiment-analysis-spanish`
 
-## Objetivo
+### Objetivo
 Implementar y evaluar un analizador de sentimientos en español utilizando un modelo preentrenado simple y eficiente. Combina **Multinomial Naive Bayes** con vectorización **TF-IDF**, diseñado especialmente para textos cortos en español.
 
-## Pruebas realizadas 
+### Pruebas realizadas 
 
 Se evaluaron tres frases representativas utilizando el modelo de análisis de sentimientos:
 
@@ -19,18 +19,40 @@ Se evaluaron tres frases representativas utilizando el modelo de análisis de se
 | "Que horrible comida!!!"        | Negativa      | 0.001            | Muy negativa (cercana a 0)    |
 | "Tuve una experiencia neutral"  | Neutral       | 0.207            | Tendencia negativa             |
 
+## Interpretación de los Resultados
 
-### Práctica 2 – Análisis Exploratorio con Pandas
+- Detecta correctamente polaridades positiva y negativa extremas con alta confianza.  
+- La frase neutral se clasifica como negativa, revelando una limitación típica de modelos clásicos: tendencia binaria y dificultad con textos neutros o ambiguos.
+
+### Análisis Detallado
+
+**Aciertos claros:**  
+- Excelente en lenguaje emocional directo y explícito.  
+- Ideal para reseñas cortas, tweets o comentarios simples.  
+
+**Limitaciones observadas:**  
+- Dificultad con neutralidad real.  
+- Posible fallo en sarcasmo, negaciones complejas o contexto (ej. "No está mal").  
+- Dependencia del dataset de entrenamiento original (probablemente reseñas de productos/películas).
+
+### Conclusiones
+
+**Enfoque clásico Naive Bayes + TF-IDF:**  
+- Simple, rápido y ligero (perfecto para recursos limitados).  
+- Eficiente en textos cortos con polaridad clara.  
+- Limitado en ambigüedad, sarcasmo y neutralidad.
+
+## Práctica 2 – Análisis Exploratorio con Pandas
 - Dataset real de redes sociales (likes, retweets, países, usuarios…)
 - Limpieza, filtros, nuevas columnas con `apply()`, `groupby()` y gráficos rápidos
 - Exportación de resultados a CSV
 
-### Práctica 3 – Joins, Fechas y Pivoteo Avanzado
+## Práctica 3 – Joins, Fechas y Pivoteo Avanzado
 - Unión de 3 CSV relacionados mediante `merge()`
 - Conversión y extracción de día/mes/año con `pd.to_datetime()`
 - Pivot tables + transpose para crear reportes listos para dashboard
 
-### Práctica 4 – Visualización de Datos con el Titanic (el dataset más famoso del mundo)
+## Práctica 4 – Visualización de Datos con el Titanic (el dataset más famoso del mundo)
 - Comparativa real de las 3 formas más usadas de graficar en Python:
   - Pandas puro → gráficos en 1 línea
   - Seaborn → estética profesional sin esfuerzo
