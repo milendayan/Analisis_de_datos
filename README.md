@@ -3,9 +3,22 @@
 Cuaderno práctico ejecutable en Google Colab con 4 ejercicios independientes (¡cada uno usa su propio dataset!).
 
 ### Práctica 1 – Análisis de Sentimientos en Español
-- Modelo preentrenado Naive Bayes + TF-IDF (`sentiment-analysis-spanish`)
-- Pruebas reales con frases positivas, negativas y neutras
-- Limitaciones del modelo clásico y por qué pasar a transformers (BETO, RoBERTuito…)
+**Modelo preentrenado basado en Naive Bayes y TF-IDF**  
+Biblioteca: `sentiment-analysis-spanish`
+
+## Objetivo
+Implementar y evaluar un analizador de sentimientos en español utilizando un modelo preentrenado simple y eficiente. Combina **Multinomial Naive Bayes** con vectorización **TF-IDF**, diseñado especialmente para textos cortos en español.
+
+## Pruebas realizadas 
+
+Se evaluaron tres frases representativas utilizando el modelo de análisis de sentimientos:
+
+| Frase                           | Tipo esperado | Puntuación obtenida | Interpretación                 |
+|---------------------------------|---------------|------------------|-------------------------------|
+| "Esta muy buena esa pelicula"   | Positiva      | 0.948            | Muy positiva (cercana a 1)    |
+| "Que horrible comida!!!"        | Negativa      | 0.001            | Muy negativa (cercana a 0)    |
+| "Tuve una experiencia neutral"  | Neutral       | 0.207            | Tendencia negativa             |
+
 
 ### Práctica 2 – Análisis Exploratorio con Pandas
 - Dataset real de redes sociales (likes, retweets, países, usuarios…)
