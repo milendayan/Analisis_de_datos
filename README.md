@@ -38,8 +38,26 @@ Se evaluaron tres frases representativas utilizando el modelo de análisis de se
 - Limitado en ambigüedad, sarcasmo y neutralidad.
 
 ## Práctica 2 – Análisis Exploratorio de Datos con Pandas
-### Objetivo: Cargar y explorar un dataset de redes sociales, limpiar y transformar los datos usando Pandas, realizar agregaciones y visualizaciones básicas, y exportar los resultados para su análisis posterior.
-  
+### Objetivo:
+Cargar y explorar un dataset de redes sociales, limpiar y transformar los datos usando Pandas, realizar agregaciones y visualizaciones básicas, y exportar los resultados para su análisis posterior.
+
+### Desarrollo del Análisis Exploratorio de Datos
+
+- **Carga y exploración:** Se cargó el dataset y se revisaron sus filas, tipos de datos, valores faltantes y estadísticas descriptivas para entender su estructura y rangos.  
+
+- **Limpieza de datos:** Se eliminaron o llenaron valores faltantes, con ajustes específicos en columnas como `retweets` y `mentions`.  
+
+- **Filtrado y selección:** Se filtraron filas por condiciones (ej. `favorites > 400`, `mentions > 20`), se seleccionaron columnas y filas específicas, y se identificaron publicaciones que contenían la palabra "Programming".  
+
+- **Nuevas columnas:** Se calcularon `ganancias estimadas` y `popularidad` para enriquecer el análisis.  
+
+- **Agregaciones:** Con `groupby()` se obtuvieron promedios, sumas y máximos por país, destacando los países con más de 5000 seguidores acumulados.  
+
+- **Visualizaciones:** Diagramas de dispersión y gráficos de barras mostraron patrones entre `favorites`, `retweets` y seguidores por país.  
+
+- **Exportación:** Los resultados agregados se guardaron en `salida.csv` para análisis posterior.
+
+
 
 ## Práctica 3 – Joins, Fechas y Pivoteo Avanzado
 - Unión de 3 CSV relacionados mediante `merge()`
