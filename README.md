@@ -17,7 +17,7 @@ Se evaluaron tres frases representativas utilizando el modelo de análisis de se
 |---------------------------------|---------------|------------------|-------------------------------|
 | "Esta muy buena esa pelicula"   | Positiva      | 0.948            | Muy positiva (cercana a 1)    |
 | "Que horrible comida!!!"        | Negativa      | 0.001            | Muy negativa (cercana a 0)    |
-| "Tuve una experiencia neutral"  | Neutral       | 0.207            | Tendencia negativa             |
+| "Tuve una experiencia neutral"  | Neutral       | 0.207            | Tendencia negativa ( debería ser más cercana a 0.5)             |
 
 ## Interpretación de los Resultados
 
