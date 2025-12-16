@@ -42,7 +42,7 @@ Se evaluaron tres frases representativas utilizando el modelo de análisis de se
 ### Objetivo:
 Cargar y explorar un dataset de redes sociales, limpiar y transformar los datos usando Pandas, realizar agregaciones y visualizaciones básicas, y exportar los resultados para su análisis posterior.
 
-### Desarrollo del Análisis Exploratorio de Datos
+### Desarrollo
 
 - **Carga y exploración:** Se cargó el dataset y se revisaron sus filas, tipos de datos, valores faltantes y estadísticas descriptivas para entender su estructura y rangos.  
 
