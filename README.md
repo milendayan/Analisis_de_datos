@@ -38,6 +38,7 @@ Se evaluaron tres frases representativas utilizando el modelo de análisis de se
 - Limitado en ambigüedad, sarcasmo y neutralidad.
 
 ## Práctica 2 – Análisis Exploratorio de Datos con Pandas
+
 ### Objetivo:
 Cargar y explorar un dataset de redes sociales, limpiar y transformar los datos usando Pandas, realizar agregaciones y visualizaciones básicas, y exportar los resultados para su análisis posterior.
 
@@ -57,7 +58,13 @@ Cargar y explorar un dataset de redes sociales, limpiar y transformar los datos 
 
 - **Exportación:** Los resultados agregados se guardaron en `salida.csv` para análisis posterior.
 
+### Conclusiones
 
+- Brasil lidera en seguidores totales e interacción promedio (menciones y retweets).  
+- Usuarios con más seguidores suelen generar publicaciones con más favoritos y menciones.  
+- Usuarios con pocos seguidores pero que siguen a muchos establecen relaciones distintas en la red.  
+- Contenido sobre **Programming** muestra alto engagement en países como Ecuador y Brasil, reflejando tendencias temáticas.  
+- Las visualizaciones permitieron identificar rápidamente relaciones entre variables (favorites, retweets) y comparaciones entre países.
 
 ## Práctica 3 – Joins, Fechas y Pivoteo Avanzado
 - Unión de 3 CSV relacionados mediante `merge()`
