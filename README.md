@@ -37,10 +37,9 @@ Se evaluaron tres frases representativas utilizando el modelo de análisis de se
 - Eficiente en textos cortos con polaridad clara.  
 - Limitado en ambigüedad, sarcasmo y neutralidad.
 
-## Práctica 2 – Análisis Exploratorio con Pandas
-- Dataset real de redes sociales (likes, retweets, países, usuarios…)
-- Limpieza, filtros, nuevas columnas con `apply()`, `groupby()` y gráficos rápidos
-- Exportación de resultados a CSV
+## Práctica 2 – Análisis Exploratorio de Datos con Pandas
+### Objetivo: Cargar y explorar un dataset de redes sociales, limpiar y transformar los datos usando Pandas, realizar agregaciones y visualizaciones básicas, y exportar los resultados para su análisis posterior.
+  
 
 ## Práctica 3 – Joins, Fechas y Pivoteo Avanzado
 - Unión de 3 CSV relacionados mediante `merge()`
